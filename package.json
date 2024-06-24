@@ -14,15 +14,18 @@
     "@assistant-ui/react": "^0.1",
     "@assistant-ui/react-ai-sdk": "^0.1",
     "@radix-ui/react-avatar": "^1.1.0",
+    "@radix-ui/react-tabs": "^1.1.0",
     "ai": "^3.2.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "html-format": "^1.1.7",
     "lucide-react": "^0.395.0",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "^20",
