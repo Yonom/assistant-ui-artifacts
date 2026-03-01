@@ -1,22 +1,16 @@
 "use client";
 import {
-  ToolCallContentPart,
-  useAssistantTool,
-  useMessageContext,
-  useThreadContext,
+  ToolCallMessagePart,
+  useThread,
 } from "@assistant-ui/react";
-import { TerminalIcon } from "lucide-react";
-import { useCallback, useRef, useState } from "react";
-import z from "zod";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export const ArtifactsView = () => {
-  const { useThreadMessages } = useThreadContext();
-  const artifact = useThreadMessages((t) => {
-    return t
+  const artifact = useThread((t) => {
+    return t.messages
       .flatMap((m) =>
         m.content.filter(
-          (c): c is ToolCallContentPart =>
+          (c): c is ToolCallMessagePart =>
             c.type === "tool-call" && c.toolName === "render_html"
         )
       )

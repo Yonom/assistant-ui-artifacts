@@ -6,7 +6,7 @@ import python from "react-syntax-highlighter/dist/esm/languages/prism/python";
 import html from "react-syntax-highlighter/dist/esm/languages/prism/xml-doc";
 
 import { coldarkDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
-import { makeMarkdownText } from "@assistant-ui/react-markdown";
+import { makeMarkdownText } from "@assistant-ui/react-ui";
 
 // register languages you want to support
 PrismAsyncLight.registerLanguage("html", html);

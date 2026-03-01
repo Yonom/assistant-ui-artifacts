@@ -1,6 +1,7 @@
 "use client";
 
-import { makeAssistantTool, Thread } from "@assistant-ui/react";
+import { makeAssistantTool } from "@assistant-ui/react";
+import { Thread } from "@assistant-ui/react-ui";
 import { ArtifactsView } from "./ArtifactsView";
 import { MarkdownText } from "./syntax-highlighter";
 import { TerminalIcon } from "lucide-react";
