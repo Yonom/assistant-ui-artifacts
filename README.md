@@ -1,3 +1,5 @@
+
+
 This is the [assistant-ui](https://github.com/Yonom/assistant-ui) starter project.
 
 ## Getting Started
@@ -5,7 +7,7 @@ This is the [assistant-ui](https://github.com/Yonom/assistant-ui) starter projec
 First, add your OpenAI API key to `.env.local` file:
 
 ```
-NEXT_PUBLIC_FIREWORKS_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 Then, run the development server:
